@@ -1,0 +1,12 @@
+.lib "fmod.dll"
+
+fsound_init%(freq%, channels%, flags%):"_FSOUND_Init@12"
+fsound_setvolume%(channel%, vol%):"_FSOUND_SetVolume@8"
+fsound_setpaused%(channel%, paused%):"_FSOUND_SetPaused@8"
+fsound_stopsound%(channel%):"_FSOUND_StopSound@4"
+fsound_stream_play%(channel%, stream%):"_FSOUND_Stream_Play@8"
+fsound_stream_stop%(stream%):"_FSOUND_Stream_Stop@4"
+fsound_stream_close%(stream%):"_FSOUND_Stream_Close@4"
+fsound_stream_open%(filename$, mode%, memlength%):"_FSOUND_Stream_Open@16"
+fsound_isplaying%(channel%):"_FSOUND_IsPlaying@4"
+fsound_setpan%(channel%, pan%):"_FSOUND_SetPan@8"

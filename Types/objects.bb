@@ -1,0 +1,10 @@
+Type objects
+    Field Field0%[39]
+    Field Field1%[6]
+    Field Field2%[2]
+    Field Field3%[10]
+    Field Field4%[4]
+    Field Field5%[1]
+    Field Field6%[1]
+    Field Field7%[1]
+End Type

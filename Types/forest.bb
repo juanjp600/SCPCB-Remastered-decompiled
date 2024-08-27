@@ -1,0 +1,11 @@
+Type forest
+    Field Field0%[6]
+    Field Field1%[6]
+    Field Field2%[10]
+    Field Field3%[111]
+    Field Field4%[101]
+    Field Field5%
+    Field Field6%[2]
+    Field Field7%[2]
+    Field Field8%
+End Type
